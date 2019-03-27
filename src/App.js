@@ -1,0 +1,15 @@
+import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { default as Routes } from './router';
+
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        {Routes}
+      </BrowserRouter>
+    );
+  }
+}
+
+export default App;
